@@ -9,12 +9,25 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "13.4.3",
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.13.2",
+    "email-validator": "^2.0.4",
+    "firebase": "^9.22.0",
+    "next": "^12.3.2",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-firebase-hooks": "^5.1.1",
+    "styled-components": "^6.0.0-rc.2"
   },
   "devDependencies": {
     "eslint": "8.41.0",
-    "eslint-config-next": "13.4.3"
+    "eslint-config-next": "13.4.3",
+    "@types/node": "18.0.0",
+    "@types/react": "18.0.14",
+    "@types/react-dom": "18.0.5",
+    "@types/styled-components": "^5.1.25",
+    "typescript": "4.7.4"
   }
 }
